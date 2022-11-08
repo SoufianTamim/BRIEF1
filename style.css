@@ -1,0 +1,201 @@
+
+/* ===========================general====================================== */
+html{
+  background: linear-gradient(#3aa5a4, #7ae5e4);
+}
+
+.name{
+  font-size: 6em;
+  font-family: 'Oswald';
+  margin-bottom: 0;
+}
+.job{
+  font-family:'Oswald';
+  font-size: 1em;
+  margin-top: 0;
+}
+
+h1{
+  font-family: 'Oswald';
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 70px;
+  padding-top: 35px;
+}
+header{
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+p{
+  font-family: 'Lato';
+  margin-top: 0;
+}
+
+.bold{
+  font-weight: bolder;
+  font-size: x-large;
+}
+section{
+  background-color: white;
+  padding: 20px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  padding: 30px 50px 40px 50px;
+  width:80%;
+  margin:30px auto 0px auto;
+  border-radius: 2px;
+}
+
+.d_projects{
+  margin-left: 70px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: brown;
+}
+/* ===========================about====================================== */
+.head img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top:0;
+  left: 0px;
+  width: 100%;
+  height:100vh;
+  z-index: -2;
+}
+.head::before{
+  content: "";
+  width:100%;
+  height: 100%;
+  background-color: #3aa5a3c7;
+  position: absolute;
+  left:0;
+  top:0;
+  z-index: -1;
+}
+.about_me div{
+  display: table;
+}
+.about_me div img{
+  float: left;
+  padding-right: 30px;
+}
+.about{
+  margin-left: 70px;
+}
+.profile_bio{
+  color: #949494;
+  margin-bottom: 0;
+  font-size: x-large;
+  margin-bottom: 60px;
+}
+/* ===========================projects====================================== */
+#image1{
+  height:220px;
+}
+#divtwo, #divthree {
+  display: inline-block;
+  margin-left: 100px;
+}
+#divone{
+  display: inline-block;
+}
+#projects{
+  height: 250px;
+  width: 400px;
+  padding-bottom: 20px;
+}
+/* ===========================work====================================== */
+.works{
+  margin-left: 70px;
+}
+.date{
+  color: #949494;
+  margin-bottom: 0;
+  font-weight: ;
+  font-size: larger;
+}
+.work_description{
+  color: #949494;
+  margin-bottom: 0;
+  font-size: x-large;
+  margin-bottom: 60px;
+}
+/* ===========================educatioln====================================== */
+#edu1, #edu2 {
+  float: left;
+  padding-right: 300px;
+}
+#edu1  {
+  margin-left: 70px;
+}
+#edu2{
+  margin-left: 10px;
+  padding-right: 300px;
+}
+#edu3{
+  padding-top: 3px;
+} 
+/* ===========================Languages====================================== */
+#arabic{
+  display: inline-block;
+  margin-left: 70px;
+}
+#english, #french{
+  display: inline-block;
+  padding-right: 3px;
+}
+#english{
+  margin-left: 410px;
+  padding-right: 410px;
+}
+span{
+  color: rgb(139, 139, 139);
+}
+/* ===========================Social Networks====================================== */
+#twitter{
+  display: inline-block;
+  margin-left: 70px;
+}
+#linkedin, #basketball{
+  display: inline-block;
+  padding-right: 3px;
+}
+#linkedin{
+  margin-left: 370px;
+  padding-right: 400px;
+}
+.icon{
+  width: 24px;
+  height: 24px;
+  margin-bottom: -3px;
+}
+/* ===========================Contact====================================== */
+.contact input , textarea{
+  background-color: #eee;
+  border:none;
+  padding:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width:90%;
+  border-radius: 5px;
+}
+.contact input:last-child{
+  background-color: black;
+  color:white;
+  width:auto;
+  border-radius: 20px; 
+  display: block;
+  cursor: pointer;
+}
+.inputs{
+  margin-left: 70px;
+}
