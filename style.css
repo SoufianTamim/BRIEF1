@@ -3,7 +3,6 @@
 html{
   background: linear-gradient(#3aa5a4, #7ae5e4);
 }
-
 .name{
   font-size: 6em;
   font-family: 'Oswald';
@@ -14,7 +13,6 @@ html{
   font-size: 1em;
   margin-top: 0;
 }
-
 h1{
   font-family: 'Oswald';
   font-size: 40px;
